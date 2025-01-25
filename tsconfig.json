@@ -1,0 +1,38 @@
+{
+	// Extend the auto-generated tsconfig from SvelteKit
+	"extends": "./.svelte-kit/tsconfig.json",
+  
+	"compilerOptions": {
+	  // Enable all strict type-checking options
+	  "strict": true,
+  
+	  // Base directory for non-relative module names
+	  //"baseUrl": ".",
+  
+	  // Define path aliases (SvelteKit typically uses $lib to reference `src/lib`)
+	  
+	 // "paths": {
+	//	"$lib": ["src/lib"],
+	//	"$lib/*": ["src/lib/*"]
+	 // },
+  
+	  // Optional: some teams prefer these
+	  // "forceConsistentCasingInFileNames": true,
+	  // "importsNotUsedAsValues": "error",
+	  // "isolatedModules": true,
+	  // "esModuleInterop": true,
+	  // "skipLibCheck": true,
+	  // "useDefineForClassFields": true
+	},
+  
+	"include": [
+	  "src/**/*.d.ts",
+	  "src/**/*.js",
+	  "src/**/*.ts",
+	  "src/**/*.svelte"
+	],
+  
+	// You can exclude or add more specific rules if needed.
+	// "exclude": ["node_modules", "dist"]
+  }
+  

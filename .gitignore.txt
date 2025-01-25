@@ -1,0 +1,10 @@
+# .gitignore
+
+node_modules
+.svelte-kit
+.build
+dist
+
+# Optional OS/Editor-specific ignores:
+.DS_Store
+*.log
